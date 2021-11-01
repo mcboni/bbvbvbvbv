@@ -1,0 +1,100 @@
+.navbar-brand{
+     color: #5b9aa0;
+     font-weight: bold;
+}
+
+
+.nav-link{
+    color: #000;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    border-bottom: solid #E1E1E1 .055em;
+}
+
+.top-section {
+    z-index:1;
+    position:relative;
+    margin-top: 0em;
+    height: 40.5em;
+    background-image: url("img2.png")!important;
+    background-size:cover;
+}
+
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }
+.input-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 42px;
+    background-color: white;
+    margin-left: 8px;
+    animation: blink .6s linear infinite alternate;
+}
+
+#greeting1{
+color: #ffff;
+margin-top: 8em;
+font-weight: 800;
+font-family: 'Playfair Display', serif;
+}
+
+#greeting{
+    color: white;
+    margin-top: 3.5em;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    }
+#sub-text1{
+    color: #d6d4e0;
+}
+.navbar-toggler-icon {
+    background-image: url("menu.png") !important;
+}
+.ml2 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.card-section{
+    margin-top: 5em;
+}
+#img_card{
+    width: 50%;
+    justify-items: center;
+}
+ @media(min-width:401px) and (max-width:500px){
+    .top-section {
+    z-index:1;
+    position:relative;
+    margin-top: 0em;
+    height: 25.5em;
+    background-image: url("img2.jpg")!important;
+    background-size:cover;
+} 
+#greeting{
+    color: rgb(48, 231, 48);
+    margin-top: 3.5em;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    }
+
+#sub-text1{
+    color: #d6d4e0;
+    font-size: .85em;
+}
+
+
+ }

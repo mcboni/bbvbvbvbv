@@ -1,0 +1,61 @@
+.form{
+    min-width: 33em;
+     width: 40em;
+    height: 4.5em;
+  
+}
+.form-section{
+    margin-top:25em ;
+ 
+}
+.text1{
+    margin-left: 3.5em;
+}
+
+.text2{
+    font-size: 1.5em;
+}
+
+.text3{
+    font-size: 1.5em;
+    margin-top: 15em;
+}
+
+#text4{
+    font-size: .8em;
+}
+
+
+ @media(min-width:401px) and (max-width:500px){
+.form{
+    min-width: 10em;
+     width: 4em;
+    height: 2em;
+  
+}
+.text2{
+    font-size: .8em;
+}
+
+.text1{
+    font-size: .8em;
+    
+    
+}
+.form-section{
+    margin-top:18em ;
+ 
+}
+
+#img2{
+    max-width:15em;
+}
+
+.text3{
+    margin-top: 0em;
+}
+
+.heading{
+    font-size: 1em;
+}
+ }
